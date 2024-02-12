@@ -5,7 +5,7 @@ pipeline {
             steps {
                 // Use Maven from global tool configuration
                 tool 'Maven'
-                sh 'mvn clean package'
+                bat 'mvn clean package'
             }
         }
     }
